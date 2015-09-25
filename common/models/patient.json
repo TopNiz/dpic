@@ -1,0 +1,70 @@
+{
+  "name": "Patient",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "postgresql": {
+    "schema": "public",
+    "table": "patient"
+  },
+  "properties": {
+    "dpicName": {
+      "type": "String",
+      "required": false,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "dpic_name",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "dpicSurname": {
+      "type": "String",
+      "required": false,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "dpic_surname",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "YES"
+      },
+      "_selectable": true
+    },
+    "dpicSecuId": {
+      "type": "String",
+      "required": true,
+      "length": 1024,
+      "precision": null,
+      "scale": null,
+      "postgresql": {
+        "columnName": "dpic_secu-id",
+        "dataType": "character varying",
+        "dataLength": 1024,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "NO"
+      },
+      "_selectable": false
+    },
+    "dpicId": {
+      "type": "string",
+      "id": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

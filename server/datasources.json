@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "dpicDatasource": {
+    "host": "localhost",
+    "database": "dpic_db",
+    "password": "11Janvier",
+    "name": "dpicDatasource",
+    "connector": "postgresql",
+    "user": "dpic_root"
+  }
+}
