@@ -5,7 +5,7 @@
         <ion-search placeholder="Numéro de sécu" filter="search"></ion-search>
       </div>
 
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats | filter:search.value" type="item-text-wrap" href="#/tab/dash">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats | filter:search.value" type="item-text-wrap" href="#/tab/patient">
         <img ng-src="{{chat.face}}">
         <h2>{{chat.name}}</h2>
         <p>1095829182334{{chat.id}}</p>

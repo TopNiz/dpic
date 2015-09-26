@@ -1,5 +1,64 @@
 angular.module('starter.services', [])
 
+.factory('Ordonnances', function() {
+  // Might use a resource here that returns a JSON array
+
+  // Some fake testing data
+  var ordonnances = [{
+    id: 0,
+    name: 'Biologie',
+    lastText: '22/04/15',
+    face: ''
+  }, {
+    id: 1,
+    name: 'Médicamenteuse',
+    lastText: '22/04/15',
+    face: ''
+  }, {
+    id: 2,
+    name: 'Biologie',
+    lastText: '25/04/15',
+    face: ''
+  }, {
+    id: 3,
+    name: 'Médicamenteuse',
+    lastText: '25/04/15',
+    face: ''
+  },{
+    id: 4,
+    name: 'Biologie',
+    lastText: '28/04/15',
+    face: ''
+  }, {
+    id: 5,
+    name: 'Médicamenteuse',
+    lastText: '28/04/15',
+    face: ''
+  }, {
+    id: 6,
+    name: 'Biologie',
+    lastText: '01/05/15',
+    face: ''
+  } ];
+
+  return {
+    all: function() {
+      return ordonnances;
+    },
+    remove: function(ordonnance) {
+      ordonnances.splice(ordonnances.indexOf(ordonnance), 1);
+    },
+    get: function(ordonnanceId) {
+      for (var i = 0; i < ordonnances.length; i++) {
+        if (ordonnances[i].id === parseInt(ordonnanceId)) {
+          return ordonnances[i];
+        }
+      }
+      return null;
+    }
+  };
+})
+
 .factory('Chats', function() {
   // Might use a resource here that returns a JSON array
 
