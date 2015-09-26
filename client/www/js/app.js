@@ -69,6 +69,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     }
   })
 
+  .state('tab.createResult', {
+    url: '/createResult',
+    views: {
+      'tab-createResult': {
+        templateUrl: 'templates/tab-createResult.html',
+        controller: 'CreateResultCtrl'
+      }
+    }
+  })
+
   .state('tab.patient', {
     url: '/patient',
     views: {
