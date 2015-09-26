@@ -48,6 +48,8 @@ angular.module('starter.controllers', [])
 
 .controller('MenuCtrl', function($scope) {})
 
+.controller('SuivisCtrl', function($scope) {})
+
 
 .controller('RechPatientCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();

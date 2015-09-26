@@ -109,6 +109,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     }
   })
 
+  .state('tab.suivis', {
+    url: '/suivis',
+    views: {
+      'tab-suivis': {
+        templateUrl: 'templates/tab-suivis.html',
+        controller: 'SuivisCtrl'
+      }
+    }
+  })
+
   .state('tab.modules', {
   url: '/modules',
   views: {
