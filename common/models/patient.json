@@ -74,6 +74,16 @@
         "nullable": "NO"
       },
       "_selectable": false
+    },
+    "dpicMaidenName": {
+      "type": "string"
+    },
+    "dpicBirthday": {
+      "type": "date"
+    },
+    "dpicGender": {
+      "type": "string",
+      "comments": "\"Male\" or \"Female\""
     }
   },
   "validations": [],
