@@ -59,8 +59,21 @@
       "_selectable": false
     },
     "dpicId": {
-      "type": "string",
-      "id": true
+      "type": "Number",
+      "id": true,
+      "required": true,
+      "length": null,
+      "precision": 64,
+      "scale": 0,
+      "postgresql": {
+        "columnName": "dpic_id",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 64,
+        "dataScale": 0,
+        "nullable": "NO"
+      },
+      "_selectable": false
     }
   },
   "validations": [],

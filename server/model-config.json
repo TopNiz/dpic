@@ -34,8 +34,6 @@
   },
   "Patient": {
     "dataSource": "dpicDatasource",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
+    "public": true
   }
 }
