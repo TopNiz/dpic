@@ -79,21 +79,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     }
   })
 
-  .state('tab.chats', {
-      url: '/chats',
+  .state('tab.ordonnances', {
+      url: '/ordonnances',
       views: {
         'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
-      }
-    })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
+          templateUrl: 'templates/tab-ordonnances.html',
+          controller: 'OrdonnancesCtrl'
         }
       }
     })
@@ -118,12 +109,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     }
   })
 
-  .state('tab.account', {
-  url: '/account',
+  .state('tab.modules', {
+  url: '/modules',
   views: {
     'tab-account': {
-      templateUrl: 'templates/tab-account.html',
-      controller: 'AccountCtrl'
+      templateUrl: 'templates/tab-modules.html',
+      controller: 'ModulesCtrl'
     }
   }
 });
