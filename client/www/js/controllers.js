@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+.controller('PatientCtrl', function($scope) {})
 
 .controller('AccueilCtrl', function($scope) {})
 
@@ -49,7 +49,7 @@ angular.module('starter.controllers', [])
 .controller('MenuCtrl', function($scope) {})
 
 
-.controller('RechPatientCtrl', function($scope, Chats) {
+.controller('RecherchePatientCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
   $scope.users = [];
 })

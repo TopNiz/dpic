@@ -69,12 +69,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     }
   })
 
-  .state('tab.dash', {
-    url: '/dash',
+  .state('tab.patient', {
+    url: '/patient',
     views: {
       'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
+        templateUrl: 'templates/tab-patient.html',
+        controller: 'PatientCtrl'
       }
     }
   })
@@ -103,8 +103,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     url: '/rechPatient',
     views: {
       'tab-rechPatient': {
-        templateUrl: 'templates/tab-rechPatient.html',
-        controller: 'RechPatientCtrl'
+        templateUrl: 'templates/tab-recherchepatient.html',
+        controller: 'RecherchePatientCtrl'
       }
     }
   })
