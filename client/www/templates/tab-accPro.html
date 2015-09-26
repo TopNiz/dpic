@@ -1,0 +1,22 @@
+<ion-view view-title="Saisissez vos identifiants">
+  <ion-content clas="padding">
+    <div class="list list-insert">
+      <label class="item item-input item-floating-label">
+        <span class="input-label"> Mail </span>
+        <input type="email" placeholder="Mail" ng-model="data.mail">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label"> Mot de passe </span>
+        <input type="password" placeholder="Mot de passe" ng-model="data.pass">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label"> Code authentification </span>
+        <input type="password" placeholder="Code authentification">
+      </label>
+    </div>
+    <a class="button button-block button-positive" ng-click="login()" ng-href="/#/tab/menu">
+    <!-- <a class="button button-block button-positive" ng-click="login()"> -->
+      Accès
+    </a>
+  </ion-content>
+</ion-view>
