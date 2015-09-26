@@ -42,6 +42,9 @@ angular.module('starter.controllers', [])
 
 .controller('SuivisCtrl', function($scope) {})
 
+.controller('UrgenceCtrl', function($scope) {})
+
+.controller('StocksCtrl', function($scope) {})
 
 .controller('RecherchePatientCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();

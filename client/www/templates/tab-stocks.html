@@ -1,0 +1,41 @@
+<ion-view view-title="Gestion des stocks">
+  <ion-content class="padding">
+    <div class="list card">
+      <div class="item item-divider">Identité</div>
+      <div class="item item-body">
+
+        <div>
+          <p><input type="Prénom" class="form-control focus" name="password"
+                    placeholder="Nom" required ng-model="Credentials.password">
+            <input type="Prénom" class="form-control focus" name="password"
+                   placeholder="Prénom" required ng-model="Credentials.password"></p>
+          <input type="Date de Naissance" class="form-control focus" name="password"
+                 placeholder="Date de Naissance" required ng-model="Credentials.password">
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Dates</div>
+      <div class="item item-body">
+        <div>
+          <A HREF="ordo/create-ordo.html">Ajouter une date <br/></A>
+        </div>
+      </div>
+    </div>
+
+    <div class="item item-divider">Commentaires</div>
+    <div class="item item-body">
+      <div>
+        <A HREF="ordo/create-ordo.html">Ajouter un commentaire <br/></A>
+      </div>
+    </div>
+    </div>
+    <br/>
+    <center>
+      <button class="btn btn-default" ng-disabled="loginForm.$invalid">Valider</button>
+    </center>
+  </ion-content>
+</ion-view>

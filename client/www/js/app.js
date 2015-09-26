@@ -59,6 +59,26 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     }
   })
 
+  .state('tab.urgence', {
+    url: '/urgence',
+    views: {
+      'tab-accueil': {
+        templateUrl: 'templates/tab-urgence.html',
+        controller: 'UrgenceCtrl'
+      }
+    }
+  })
+
+  .state('tab.stocks', {
+    url: '/stocks',
+    views: {
+      'tab-accueil': {
+        templateUrl: 'templates/tab-stocks.html',
+        controller: 'StocksCtrl'
+      }
+    }
+  })
+
   .state('tab.accPro', {
     url: '/accPro',
     views: {
