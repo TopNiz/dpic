@@ -54,6 +54,14 @@ angular.module('starter.controllers', [])
 
 .controller('MenuCtrl', function($scope) {})
 
+
+.controller('RechPatientCtrl', function($scope, Chats) {
+  $scope.chats = Chats.all();
+  $scope.users = [];
+  //Chats.getFirst(15).then(function(users){
+  //  $scope.users = users;
+  //});
+})
 // function AccesProClic($stateProvider){
 //   $stateProvider
 //   .state('')
