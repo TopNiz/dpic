@@ -5,10 +5,6 @@
         <ion-search placeholder="Numéro de sécu" filter="search"></ion-search>
       </div>
 
-      <!--<div ng-repeat="user in users | filter:search.value" class="item">-->
-        <!--{{user.name}}-->
-      <!--</div>-->
-
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats | filter:search.value" type="item-text-wrap" href="#/tab/dash">
         <img ng-src="{{chat.face}}">
         <h2>{{chat.name}}</h2>
@@ -19,15 +15,6 @@
           Delete
         </ion-option-button>
       </ion-item>
-
-      <!--<div ng-repeat="patient in chats"-->
-           <!--class="item-remove-animate item-avatar item-icon-right"-->
-           <!--type="item-text-wrap"-->
-           <!--href="#/tab/recherche-patient/{{patient.id}}">-->
-        <!--<img ng-src="{{patient.face}}">-->
-        <!--<h2>{{patient.name}}</h2>-->
-        <!--<p>Numero secu {{patient.id}}</p>-->
-      <!--</div>-->
 
     </ion-list>
   </ion-content>
