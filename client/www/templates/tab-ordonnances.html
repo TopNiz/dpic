@@ -1,5 +1,11 @@
 <ion-view view-title="Ordonnances">
   <ion-content>
-
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="ordonnance in ordonnances" type="item-text-wrap" href="#/tab/ordonnance1">
+        <h2>{{ordonnance.name}}</h2>
+        <p>{{ordonnance.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>
