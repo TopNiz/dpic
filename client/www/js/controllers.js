@@ -39,6 +39,10 @@ angular.module('starter.controllers', [])
   $scope.ordonnances = Ordonnances.all();
 })
 
+.controller('Ordonnances1Ctrl', function($scope, Ordonnances) {
+  $scope.ordonnances = Ordonnances.all();
+})
+
 .controller('CreateResultCtrl', function($scope) {})
 
 

@@ -64,7 +64,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     views: {
       'tab-urgence': {
         templateUrl: 'templates/tab-urgence.html',
-        controller: 'AccueilCtrl' //'UrgenceCtrl'
+        controller: 'UrgenceCtrl'
       }
     }
   })
@@ -124,7 +124,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       views: {
         'tab-ordonnance1': {
           templateUrl: 'templates/ordonnance-detail.html',
-          controller: 'OrdonnancesCtrl'
+          controller: 'Ordonnances1Ctrl'
         }
       }
     })

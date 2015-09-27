@@ -6,50 +6,54 @@ navigation history that also transitions its views in and out.
 <ion-tabs class="tabs-icon-top tabs-color-active-positive">
 
   <!-- Accueil Tab -->
-  <ion-tab title="Accueil" icon-off="ion-home" icon-on="ion-home" href="#/tab/accueil">
+  <ion-tab title="Accueil" icon-off="ion-home" icon-on="ion-home" HREF="#/tab/accueil">
     <ion-nav-view name="tab-accueil"></ion-nav-view>
   </ion-tab>
 
   <!-- Acces pro Tab -->
-  <ion-tab title="Acces Pro" icon-off="ion-ios-locked" icon-on="ion-ios-unlocked" href="#/tab/accPro">
+  <ion-tab title="Acces Pro" icon-off="ion-ios-locked" icon-on="ion-ios-unlocked" HREF="#/tab/accPro">
     <ion-nav-view name="tab-accPro"></ion-nav-view>
   </ion-tab>
 
   <!-- Menu Tab -->
-  <ion-tab title="Menu" icon-off="ion-ios-bookmarks" icon-on="ion-ios-bookmarks" href="#/tab/menu">
+  <ion-tab title="Menu" icon-off="ion-ios-bookmarks" icon-on="ion-ios-bookmarks" HREF="#/tab/menu">
     <ion-nav-view name="tab-menu"></ion-nav-view>
   </ion-tab>
 
-  <ion-tab title="Urgence" icon-off="ion-ios-bookmarks" icon-on="ion-ios-bookmarks" href="#/tab/urgence">
+  <ion-tab title="Urgence" icon-off="ion-ios-medkit" icon-on="ion-ios-medkit" HREF="#/tab/urgence">
     <ion-nav-view name="tab-urgence"></ion-nav-view>
   </ion-tab>
 
-  <ion-tab title="Stocks" icon-off="ion-ios-bookmarks" icon-on="ion-ios-bookmarks" href="#/tab/stocks">
+  <ion-tab title="Stocks" icon-off="ion-ios-cart" icon-on="ion-ios-cart" HREF="#/tab/stocks">
     <ion-nav-view name="tab-stocks"></ion-nav-view>
   </ion-tab>
 
-  <ion-tab href="#/tab/patient" hidden="true">
+  <ion-tab hidden="true">
     <ion-nav-view name="tab-patient"></ion-nav-view>
   </ion-tab>
 
-  <ion-tab href="#/tab/chats" hidden="true">
-    <ion-nav-view name="tab-chats"></ion-nav-view>
-  </ion-tab>
-
-  <ion-tab href="#/tab/account" hidden="true">
-    <ion-nav-view name="tab-account"></ion-nav-view>
-  </ion-tab>
-
-  <ion-tab href="#/tab/rechPatient" hidden="true">
+  <ion-tab hidden="true">
     <ion-nav-view name="tab-rechPatient"></ion-nav-view>
   </ion-tab>
 
-  <ion-tab href="#/tab/suivis" hidden="true">
+  <ion-tab hidden="true">
     <ion-nav-view name="tab-suivis"></ion-nav-view>
   </ion-tab>
 
-  <ion-tab href="#/tab/createResult" hidden="true">
+  <ion-tab hidden="true">
+    <ion-nav-view name="tab-modules"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab hidden="true">
     <ion-nav-view name="tab-createResult"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab hidden="true">
+    <ion-nav-view name="tab-ordonnances"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab hidden="true">
+    <ion-nav-view name="tab-ordonnance1"></ion-nav-view>
   </ion-tab>
 
 </ion-tabs>
