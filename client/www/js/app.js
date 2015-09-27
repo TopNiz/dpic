@@ -62,7 +62,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   .state('tab.urgence', {
     url: '/urgence',
     views: {
-      'tab-accueil': {
+      'tab-urgence': {
         templateUrl: 'templates/tab-urgence.html',
         controller: 'UrgenceCtrl'
       }
@@ -72,7 +72,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   .state('tab.stocks', {
     url: '/stocks',
     views: {
-      'tab-accueil': {
+      'tab-stocks': {
         templateUrl: 'templates/tab-stocks.html',
         controller: 'StocksCtrl'
       }
@@ -102,7 +102,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   .state('tab.patient', {
     url: '/patient',
     views: {
-      'tab-dash': {
+      'tab-patient': {
         templateUrl: 'templates/tab-patient.html',
         controller: 'PatientCtrl'
       }
@@ -112,7 +112,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   .state('tab.ordonnances', {
       url: '/ordonnances',
       views: {
-        'tab-chats': {
+        'tab-ordonnances': {
           templateUrl: 'templates/tab-ordonnances.html',
           controller: 'OrdonnancesCtrl'
         }
@@ -122,7 +122,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     .state('tab.ordonnance1', {
       url: '/ordonnance1',
       views: {
-        'tab-chats': {
+        'tab-ordonnance1': {
           templateUrl: 'templates/ordonnance-detail.html',
           controller: 'OrdonnancesCtrl'
         }
@@ -162,7 +162,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   .state('tab.modules', {
   url: '/modules',
   views: {
-    'tab-account': {
+    'tab-modules': {
       templateUrl: 'templates/tab-modules.html',
       controller: 'ModulesCtrl'
     }
