@@ -62,7 +62,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   .state('tab.urgence', {
     url: '/urgence',
     views: {
-      'tab-urgence': {
+      'tab-accueil': {
         templateUrl: 'templates/tab-urgence.html',
         controller: 'UrgenceCtrl'
       }
@@ -72,7 +72,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   .state('tab.stocks', {
     url: '/stocks',
     views: {
-      'tab-stocks': {
+      'tab-accueil': {
         templateUrl: 'templates/tab-stocks.html',
         controller: 'StocksCtrl'
       }
@@ -102,7 +102,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   .state('tab.patient', {
     url: '/patient',
     views: {
-      'tab-patient': {
+      'tab-dash': {
         templateUrl: 'templates/tab-patient.html',
         controller: 'PatientCtrl'
       }
