@@ -2,7 +2,15 @@ angular.module('starter.controllers', [])
 
 .controller('PatientCtrl', function($scope) {})
 
-.controller('AccueilCtrl', function($scope) {})
+.controller('AccueilCtrl', function($scope) {
+    $scope.data = {};
+    $scope.data.urgence = 'blue';
+    $scope.transmettre = function(){
+      console.log("transmission");
+      $scope.buttonStyle = "color: red"
+      //$scope.data.urgence = 'red';
+    }
+  })
 
 .controller('AccProCtrl', function($scope, $http) {
   $scope.data = {};
